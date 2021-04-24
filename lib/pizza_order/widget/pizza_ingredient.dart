@@ -44,9 +44,9 @@ class PizzaIngredientItem extends StatelessWidget {
           height: itemSize,
           width: itemSize,
           decoration: BoxDecoration(
-            color:exist?Colors.red: Color(0xFFF5EED3),
+            color:Color(0xFFF5EED3),
             shape: BoxShape.circle,
-            border: exist ? Border.all(color: Colors.black, width: 2) : null,
+            border: exist ? Border.all(color: Colors.red, width: 2) : null,
           ),
           child: Padding(
             padding: const EdgeInsets.all(5.0),
