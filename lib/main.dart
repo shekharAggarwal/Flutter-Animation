@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animation/pizza_order/main_pizza_order.dart';
+import 'package:flutter_animation/HomeScreen.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -7,6 +7,6 @@ void main() {
     theme: ThemeData(
       primarySwatch: Colors.blue,
     ),
-    home: MainPizzaOrderApp(),
+    home: HomeScreen(),
   ));
 }
